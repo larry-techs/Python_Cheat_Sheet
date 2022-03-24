@@ -24,5 +24,29 @@ else:
     points ="0"
 
 print(points)
+words = "hello", "me"
+words = list(words)
 
+
+
+
+#Checking if a list is empty
+
+students =[]
+if students:
+    print("empty students")
+else:
+    print("not empty")
+
+#Checking between two lists
+
+students_ = ["jimmy","jaimoh","hnery","henry"]
+students_fail = ["jimmy","jaimoh","larry"]
+
+for student in students_:
+    if student in students_fail:
+        print(f"{student}you have failed!!")
+    else:
+        print (f"{student}you made it")
+    
 
