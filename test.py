@@ -1,6 +1,6 @@
-list1 = ["a", "b", "c"]
+active_users = ['nel','len','kin','nik']
+inactive_users= ['nel','len']
 
-for i in range(len(list1)):
-    list1[i] = list1[i].upper()
-
-print(list1)
+while inactive_users:
+    for inactive_user in inactive_users:
+        print(inactive_user)
