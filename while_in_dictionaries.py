@@ -24,3 +24,8 @@ while new_users:
     users.append(new_user)
 
 print(users)
+
+#Deleting duplicate entris
+
+while dupl in users:
+    users.remove(dupl)
